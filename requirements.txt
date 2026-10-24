@@ -1,0 +1,10 @@
+# Зависимости cursor-limits-app
+# pystray — иконка в системном трее Windows
+# Pillow — рисуем цветную иконку (зелёный/жёлтый/красный)
+# requests — HTTPS к API Cursor и ЦБ РФ
+# python-dotenv — опциональный .env (fallback, не основной способ хранения)
+
+pystray>=0.19.5
+Pillow>=10.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0

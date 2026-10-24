@@ -1,0 +1,41 @@
+{
+  "name": "cursor-limits-status-bar",
+  "displayName": "Cursor Limits (status bar)",
+  "description": "Показывает лимиты Cursor в нижней панели. Читает кэш от Python tray-приложения — токен в расширении не хранится.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursorLimitsStatusBar.refresh",
+        "title": "Cursor Limits: Refresh status bar"
+      },
+      {
+        "command": "cursorLimitsStatusBar.openCache",
+        "title": "Cursor Limits: Open cache file"
+      }
+    ],
+    "configuration": {
+      "title": "Cursor Limits Status Bar",
+      "properties": {
+        "cursorLimitsStatusBar.cachePath": {
+          "type": "string",
+          "default": "",
+          "description": "Полный путь к data/cache.json. Пусто = <workspace>/data/cache.json или соседний репозиторий cursor-limits-app."
+        },
+        "cursorLimitsStatusBar.refreshIntervalSec": {
+          "type": "number",
+          "default": 30,
+          "minimum": 5,
+          "description": "Как часто перечитывать кэш (сам Python обновляет API реже)."
+        }
+      }
+    }
+  }
+}

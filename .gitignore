@@ -1,0 +1,43 @@
+# Секреты — никогда не коммитить
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
+
+# Локальные кэши usage / FX (могут содержать данные аккаунта)
+data/
+!data/.gitkeep
+**/cache.json
+**/fx_cache.json
+.cache/
+
+# Сборка
+.venv/
+venv/
+dist/
+build/
+*.spec
+*.exe
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Логи / временное
+*.log
+tmp/
+temp/

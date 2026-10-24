@@ -85,6 +85,24 @@ UI mockups for documentation (figures are demo data, not from a live account).
 
 </details>
 
+## Download
+
+<p>
+  <a href="https://github.com/EvgenyPS/cursor-limit/releases/latest">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/EvgenyPS/cursor-limit?style=for-the-badge&label=Download">
+  </a>
+</p>
+
+Prebuilt Windows binary (no Python install needed):
+
+1. Open [Releases](https://github.com/EvgenyPS/cursor-limit/releases/latest)
+2. Download `CursorLimits-v*-windows-x64.exe`
+3. Run it (Windows SmartScreen may warn — expected for unsigned apps)
+4. Requires a signed-in **Cursor IDE** on this machine
+5. Optional: tray → **Start with Windows**; **IDE Bar** button for the status bar
+
+SHA256 (`v1.0.0`): `3168FE615C341E8502E79849E31B6DDD591AB2CB89F6D972C54D5FAA9D371977`
+
 ## Architecture
 
 ```text

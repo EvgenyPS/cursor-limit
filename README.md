@@ -85,6 +85,24 @@
 
 </details>
 
+## Скачать
+
+<p>
+  <a href="https://github.com/EvgenyPS/cursor-limit/releases/latest">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/EvgenyPS/cursor-limit?style=for-the-badge&label=Download">
+  </a>
+</p>
+
+Готовая сборка Windows (без установки Python):
+
+1. Открой [Releases](https://github.com/EvgenyPS/cursor-limit/releases/latest)
+2. Скачай `CursorLimits-v*-windows-x64.exe`
+3. Запусти (Windows может спросить разрешение — SmartScreen для неподписанных приложений нормален)
+4. Нужен залогиненный **Cursor IDE** на этой машине
+5. Опционально: в трее → **Автозапуск с Windows**; кнопка **«Панель IDE»** для status bar
+
+SHA256 (`v1.0.0`): `3168FE615C341E8502E79849E31B6DDD591AB2CB89F6D972C54D5FAA9D371977`
+
 ## Архитектура
 
 ```text

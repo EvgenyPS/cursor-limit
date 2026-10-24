@@ -8,6 +8,18 @@ import argparse
 import json
 import sys
 
+
+def _configure_stdio() -> None:
+    """Windows-консоль (cp1251) падает на ● в status_bar_text — форсируем UTF-8."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
+        except (AttributeError, OSError, ValueError):
+            pass
+
+
+_configure_stdio()
+
 from .config import CACHE_FILE, load_config
 from .service import refresh_usage
 from .tray_app import run_tray

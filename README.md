@@ -99,8 +99,8 @@
 |----|-----------------------------------------------------------------------------|
 | Windows x64 | `CursorLimits-windows-x64.exe` |
 | Linux x64 | `CursorLimits-linux-x64` |
-| macOS Intel | `CursorLimits-macos-x64.app.zip` |
-| macOS Apple Silicon (M1/M2/M3) | `CursorLimits-macos-arm64.app.zip` |
+| macOS Apple Silicon (M1/M2/M3/M4) | `CursorLimits-macos-arm64.app.zip` |
+| macOS Intel | из исходников: `python -m src` |
 
 1. Скачай файл под свою ОС и запусти (на macOS распакуй `.zip`)
 2. Система может предупредить о неподписанном приложении (SmartScreen / Gatekeeper) — это ожидаемо
@@ -234,7 +234,6 @@ cursor-limits-app/
 |----------|------------|
 | [docs/SETUP.md](docs/SETUP.md) | Установка, пути, troubleshooting |
 | [docs/SECURITY.md](docs/SECURITY.md) | Авторизация, кэш, что не коммитить |
-| [AI-work.MD](AI-work.MD) | Журнал решений и изменений |
 | [README.en.md](README.en.md) | English version |
 
 ## Ограничения и дисклеймер

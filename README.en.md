@@ -99,8 +99,8 @@ Prebuilt binaries (no Python install needed):
 |----|-------------------------------------------------------------------------------|
 | Windows x64 | `CursorLimits-windows-x64.exe` |
 | Linux x64 | `CursorLimits-linux-x64` |
-| macOS Intel | `CursorLimits-macos-x64.app.zip` |
-| macOS Apple Silicon (M1/M2/M3) | `CursorLimits-macos-arm64.app.zip` |
+| macOS Apple Silicon (M1/M2/M3/M4) | `CursorLimits-macos-arm64.app.zip` |
+| macOS Intel | from source: `python -m src` |
 
 1. Download the file for your OS and run it (on macOS, unzip the `.zip` first)
 2. The OS may warn about an unsigned app (SmartScreen / Gatekeeper) — expected
@@ -234,7 +234,6 @@ cursor-limits-app/
 |-----|----------|
 | [docs/SETUP.md](docs/SETUP.md) | Install paths & troubleshooting (Russian) |
 | [docs/SECURITY.md](docs/SECURITY.md) | Auth, cache, what not to commit (Russian) |
-| [AI-work.MD](AI-work.MD) | Design journal / changelog (Russian) |
 | [README.md](README.md) | Русская версия |
 
 ## Limitations & disclaimer

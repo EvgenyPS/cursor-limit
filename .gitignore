@@ -19,6 +19,8 @@ data/
 venv/
 dist/
 build/
+release-dl/
+
 *.spec
 *.exe
 __pycache__/
@@ -41,3 +43,7 @@ Desktop.ini
 *.log
 tmp/
 temp/
+
+# Локальный журнал агента — не в публичный репозиторий
+AI-work.MD
+AI-work.md

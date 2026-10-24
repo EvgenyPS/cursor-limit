@@ -28,9 +28,7 @@ jobs:
           - os: ubuntu-22.04
             slug: linux-x64
             ext: ""
-          - os: macos-13
-            slug: macos-x64
-            ext: ""
+          # macos-13 (Intel) часто часами в очереди GitHub — пока только Apple Silicon
           - os: macos-14
             slug: macos-arm64
             ext: ""

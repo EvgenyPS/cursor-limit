@@ -6,15 +6,19 @@ $Root = Split-Path -Parent $PSScriptRoot
 Set-Location $Root
 
 $VenvPython = Join-Path $Root ".venv\Scripts\python.exe"
-if (-not (Test-Path $VenvPython)) {
-    throw "No .venv found. Create it first: python -m venv .venv"
+if (Test-Path $VenvPython) {
+    $Python = $VenvPython
+} else {
+    # CI / система без локального venv
+    $Python = (Get-Command python -ErrorAction Stop).Source
+    Write-Host "Using system Python: $Python"
 }
 
-& $VenvPython -m pip install -q pyinstaller
+& $Python -m pip install -q pyinstaller
 # Вшиваем расширение status bar + SVG иконки трея
 $StatusBar = Join-Path $Root "cursor-status-bar"
 $IcoSvg = Join-Path $Root "cursor-ico.svg"
-& $VenvPython -m PyInstaller `
+& $Python -m PyInstaller `
     --noconfirm `
     --clean `
     --onefile `

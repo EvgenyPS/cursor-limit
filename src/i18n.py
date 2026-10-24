@@ -18,7 +18,7 @@ _STRINGS: dict[str, dict[Lang, str]] = {
     "open_details": {"ru": "Открыть детали", "en": "Open details"},
     "refresh_now": {"ru": "Обновить сейчас", "en": "Refresh now"},
     "check_online": {"ru": "Проверить онлайн", "en": "Check online"},
-    "autostart": {"ru": "Автозапуск с Windows", "en": "Start with Windows"},
+    "autostart": {"ru": "Автозапуск при входе", "en": "Start at login"},
     "open_dashboard": {"ru": "Открыть кабинет Cursor", "en": "Open Cursor dashboard"},
     "exit": {"ru": "Выход", "en": "Quit"},
     "language": {"ru": "Язык: Русский", "en": "Language: English"},

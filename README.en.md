@@ -93,15 +93,21 @@ UI mockups for documentation (figures are demo data, not from a live account).
   </a>
 </p>
 
-Prebuilt Windows binary (no Python install needed):
+Prebuilt binaries (no Python install needed):
 
-1. Open [Releases](https://github.com/EvgenyPS/cursor-limit/releases/latest)
-2. Download `CursorLimits-v*-windows-x64.exe`
-3. Run it (Windows SmartScreen may warn — expected for unsigned apps)
-4. Requires a signed-in **Cursor IDE** on this machine
-5. Optional: tray → **Start with Windows**; **IDE Bar** button for the status bar
+| OS | File in [Releases](https://github.com/EvgenyPS/cursor-limit/releases/latest) |
+|----|-------------------------------------------------------------------------------|
+| Windows x64 | `CursorLimits-windows-x64.exe` |
+| Linux x64 | `CursorLimits-linux-x64` |
+| macOS Intel | `CursorLimits-macos-x64.app.zip` |
+| macOS Apple Silicon (M1/M2/M3) | `CursorLimits-macos-arm64.app.zip` |
 
-SHA256 (`v1.0.0`): `3168FE615C341E8502E79849E31B6DDD591AB2CB89F6D972C54D5FAA9D371977`
+1. Download the file for your OS and run it (on macOS, unzip the `.zip` first)
+2. The OS may warn about an unsigned app (SmartScreen / Gatekeeper) — expected
+3. Requires a signed-in **Cursor IDE** on this machine
+4. Optional: tray → **Start at login**; **IDE Bar** for the status bar
+
+> Linux: needs a graphical session with status notifier / AppIndicator support.
 
 ## Architecture
 

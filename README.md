@@ -93,15 +93,21 @@
   </a>
 </p>
 
-Готовая сборка Windows (без установки Python):
+Готовые сборки (без установки Python):
 
-1. Открой [Releases](https://github.com/EvgenyPS/cursor-limit/releases/latest)
-2. Скачай `CursorLimits-v*-windows-x64.exe`
-3. Запусти (Windows может спросить разрешение — SmartScreen для неподписанных приложений нормален)
-4. Нужен залогиненный **Cursor IDE** на этой машине
-5. Опционально: в трее → **Автозапуск с Windows**; кнопка **«Панель IDE»** для status bar
+| ОС | Файл в [Releases](https://github.com/EvgenyPS/cursor-limit/releases/latest) |
+|----|-----------------------------------------------------------------------------|
+| Windows x64 | `CursorLimits-windows-x64.exe` |
+| Linux x64 | `CursorLimits-linux-x64` |
+| macOS Intel | `CursorLimits-macos-x64.app.zip` |
+| macOS Apple Silicon (M1/M2/M3) | `CursorLimits-macos-arm64.app.zip` |
 
-SHA256 (`v1.0.0`): `3168FE615C341E8502E79849E31B6DDD591AB2CB89F6D972C54D5FAA9D371977`
+1. Скачай файл под свою ОС и запусти (на macOS распакуй `.zip`)
+2. Система может предупредить о неподписанном приложении (SmartScreen / Gatekeeper) — это ожидаемо
+3. Нужен залогиненный **Cursor IDE** на этой машине
+4. Опционально: в трее → **Автозапуск при входе**; кнопка **«Панель IDE»** для status bar
+
+> Linux: нужен графический сеанс с поддержкой status notifier / AppIndicator.
 
 ## Архитектура
 

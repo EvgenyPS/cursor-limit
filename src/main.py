@@ -16,7 +16,7 @@ from .tray_app import run_tray
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="cursor-limits",
-        description="Лимиты Cursor в трее Windows + кэш для нижней панели IDE",
+        description="Лимиты Cursor в системном трее + кэш для нижней панели IDE",
     )
     p.add_argument(
         "--once",
@@ -36,7 +36,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--install-autostart",
         action="store_true",
-        help="Включить автозапуск с Windows (HKCU Run) и выйти",
+        help="Включить автозапуск при входе в систему и выйти",
     )
     p.add_argument(
         "--uninstall-autostart",

@@ -66,3 +66,5 @@ docs/SETUP.md  — установка и безопасность
 - README bilingual: `README.md` (RU) + `README.en.md` (EN), переключатель языка сверху/снизу, скриншоты, badges, архитектура, CLI, security.
 - Публичный GitHub: https://github.com/EvgenyPS/cursor-limit (clone/badge в README; `.env`/dist/data не в git).
 - Лицензия: MIT → **PolyForm Noncommercial 1.0.0** (атрибуция + запрет коммерции / платных продуктов на базе кода).
+- GitHub Release **v1.0.0**: `CursorLimits-v1.0.0-windows-x64.exe` + секция Download в README.
+- Кроссплатформа: пути Cursor (Win/Mac/Linux), автозапуск LaunchAgent/.desktop, CI `.github/workflows/release.yml` (win/linux/macos-x64/arm64).

@@ -18,6 +18,8 @@ import sqlite3
 from dataclasses import dataclass
 from pathlib import Path
 
+from .platform_paths import cursor_state_db_path, cursor_user_data_dir
+
 
 @dataclass(slots=True)
 class CursorCredentials:
@@ -37,15 +39,9 @@ class CursorCredentials:
         return f"WorkosCursorSessionToken={self.session_cookie_value()}"
 
 
-def _appdata_cursor() -> Path:
-    appdata = os.environ.get("APPDATA")
-    if appdata:
-        return Path(appdata) / "Cursor"
-    return Path.home() / "AppData" / "Roaming" / "Cursor"
-
-
 def state_db_path() -> Path:
-    return _appdata_cursor() / "User" / "globalStorage" / "state.vscdb"
+    """Путь к state.vscdb Cursor (Windows / macOS / Linux)."""
+    return cursor_state_db_path()
 
 
 def _read_access_token_from_db(db_path: Path) -> str | None:
@@ -122,7 +118,7 @@ def _find_user_id_in_obj(obj: object) -> str | None:
 
 
 def _candidate_user_id_files() -> list[Path]:
-    base = _appdata_cursor()
+    base = cursor_user_data_dir()
     return [
         base / "sentry" / "scope_v3.json",
         base / "sentry" / "session.json",

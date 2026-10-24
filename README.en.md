@@ -19,7 +19,7 @@
   <a href="https://github.com/EvgenyPS/cursor-limit"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-EvgenyPS%2Fcursor--limit-181717?style=flat-square&logo=github"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-blue?style=flat-square">
   <img alt="UI" src="https://img.shields.io/badge/UI-RU%20%7C%20EN-111111?style=flat-square">
 </p>
 
@@ -201,7 +201,7 @@ cursor-limits-app/
 ├── cursor-ico.svg        # tray icon source
 ├── README.md             # Russian
 ├── README.en.md          # this page (EN)
-└── LICENSE               # MIT
+└── LICENSE               # PolyForm Noncommercial 1.0.0
 ```
 
 ## Documentation
@@ -223,7 +223,21 @@ cursor-limits-app/
 
 ## License
 
-[MIT](LICENSE) © 2026
+[PolyForm Noncommercial License 1.0.0](LICENSE) © 2026 [EvgenyPS](https://github.com/EvgenyPS)
+
+This is **source-available for noncommercial use** (not OSI “Open Source” — commercial use is restricted).
+
+| Allowed | Not allowed |
+|---------|-------------|
+| Personal / educational / noncommercial use | Selling the app or products based on it |
+| Study, modify, fork for noncommercial purposes | Paid SaaS, paid builds, commercial resale |
+| Redistribute while keeping the license and attribution | Removing copyright / `Required Notice` |
+
+**Required attribution** when redistributing or creating derivatives:
+
+`Required Notice: Copyright (c) 2026 EvgenyPS — https://github.com/EvgenyPS/cursor-limit`
+
+Full text: [LICENSE](LICENSE) · [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 
 ---
 

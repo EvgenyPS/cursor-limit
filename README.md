@@ -19,7 +19,7 @@
   <a href="https://github.com/EvgenyPS/cursor-limit"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-EvgenyPS%2Fcursor--limit-181717?style=flat-square&logo=github"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-blue?style=flat-square">
   <img alt="UI" src="https://img.shields.io/badge/UI-RU%20%7C%20EN-111111?style=flat-square">
 </p>
 
@@ -201,7 +201,7 @@ cursor-limits-app/
 ├── cursor-ico.svg        # иконка трея (исходник)
 ├── README.md             # эта страница (RU)
 ├── README.en.md          # English
-└── LICENSE               # MIT
+└── LICENSE               # PolyForm Noncommercial 1.0.0
 ```
 
 ## Документация
@@ -223,7 +223,21 @@ cursor-limits-app/
 
 ## Лицензия
 
-[MIT](LICENSE) © 2026
+[PolyForm Noncommercial License 1.0.0](LICENSE) © 2026 [EvgenyPS](https://github.com/EvgenyPS)
+
+Это **открытый исходный код для некоммерческого использования** (не OSI “Open Source” — коммерция ограничена).
+
+| Разрешено | Не разрешено |
+|-----------|--------------|
+| Личное / учебное / некоммерческое использование | Продавать программу или продукты на её основе |
+| Изучать, менять, форкать для некоммерческих целей | Платные SaaS, платные сборки, коммерческая перепродажа |
+| Распространять с сохранением лицензии и указания автора | Убирать copyright / `Required Notice` |
+
+**Обязательная атрибуция:** при распространении или производных работах нужно сохранять уведомление:
+
+`Required Notice: Copyright (c) 2026 EvgenyPS — https://github.com/EvgenyPS/cursor-limit`
+
+Полный текст: [LICENSE](LICENSE) · [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 
 ---
 

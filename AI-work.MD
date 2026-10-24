@@ -64,3 +64,5 @@ docs/SETUP.md  — установка и безопасность
 - Иконка трея: `cursor-ico.svg` без чёрного фона; центральная стрелка красятся по % лимита; установка панели IDE из окна/меню.
 - Pixso-макеты окна для README: `docs/images/window-full-ru.png`, `window-week-ru.png`, `window-full-en.png` (HTML→code_to_design → PNG 2×).
 - README bilingual: `README.md` (RU) + `README.en.md` (EN), переключатель языка сверху/снизу, скриншоты, badges, архитектура, CLI, security.
+- Публичный GitHub: https://github.com/EvgenyPS/cursor-limit (clone/badge в README; `.env`/dist/data не в git).
+- Лицензия: MIT → **PolyForm Noncommercial 1.0.0** (атрибуция + запрет коммерции / платных продуктов на базе кода).
